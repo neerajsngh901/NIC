@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: NicAuthServer
+        
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: "jdbc:mysql://localhost:3306/USERSERVICE?autoreconnect=true"
+        password: "root"
+        username: "root"
+
+config:
+    oauth2:
+        clientid: neeraj
+        clientSecret: Nic@123
+        privateKey: AAABAGQe4EHwsq96bjOZyaDWbR0UNhw9tVg28fLAbKmw+bVGJ+pBU04N12zYgQseXZfbWOlZpup3BJT8xgvCxWUct7+ShJw+Jc0zrsiRYVxWe/rEXPPXnpVMM48b8WWXoLSYn+LL5xwB0i0asCjE/crwHmwClIE4H2yxILmR5zr7Lzlpq+rltRNvesQh3UIQs/KxXTGacyBbaIE+JySUW1oW42hPWYf4/ZYCrSQYl+3uAO4jPppfkRzV8F5FIC0Qs/itUJ7p+G7wHFAQKBET+tnxV7SPBeA1ye8JGkxH1w6SHe0srqoBJWTnCPDlRNvxb6MNheIhsrNJY+RxLF82kMhuKO0AAACBANAPwEmXB0xN4xws8M3O72QoX/D+5LxjnGBFeD1idU/jafdZk7C/rSViNBq2QUnj0+6FDblCpWhNtIVZfWH7E7ShPWF0bvqa0AIDHM7V6PvIieVjVGs5IcLzs5xycZJGzi4zoPwXxGYkx1bBRUWFrxeqZWjDx/NP3wKFBTQJKbmpAAAAgQCvTqxPkee9Iwut3kTNkM5q6jUkDuM/Y8X7jHdxD30dQ3Hj0WXJ4mtpAHV/2mTZmVv4jizyMm0fxOHURUP6dGo/iKzsNhbVgx+yLbRvwTp34MAqzkqsNdJ3b7POKZ5EdixOsqIhPSDn+hKb7WGI8MjWzM2CrtF3en9fOXTcHlad5QAAAIA+kGTmhdfcRcHzJ4b9J8hegLeeiid0bWQS3WpnWL+mkw4sJE0LCgE4HspKqXnxQwepV8jLjBI2kdfZFD2hC6SoVMuitnfVgejZNNwbZZ3rMUedINiO9O2yo+MQVviseCib9PEM1AbypsaoZ7lJbHkGZWB6lrDdeEd0bNRjPU5+Sg== 
+        publicKey: AAAAB3NzaC1yc2EAAAABJQAAAQEAjnq1SiVNDWlODlraAmw40MQlnlfQ1ibOdv4ke1R3C9AlHCHi22J3fVt8j9KY4fM5mtgydQvVSiyjrkZnrW3KaTzQaDEOaPDu4li7yFOwbrT6brLX1HZJX1j+6TBksjuoc/rI4u7mLH6YOgSkPlW1I42EkIEZBvwRCBSN+1HDNCuRjymksOZL1tA2JE1gYH8idrXMlHFy9XXiSuowciawxSVkbHlZqM2YeH3VO9tMMolxZRFwHhuZNkd9kB4Nx4hJWtTMvoy9VMuecIFepec1ZVCsP3V7uUYa46ZECWme3UPrnR1cZHza2CA3Irl3LUZAryfMNqk93jqDWaos9fW5LQ==
+      
